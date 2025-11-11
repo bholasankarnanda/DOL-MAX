@@ -389,7 +389,7 @@ select {
     display: flex;
     gap: 40px;
     width: 10rem;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
 }
 
 .gd_cnt_sub1 p {
