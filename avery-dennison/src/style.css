@@ -50,7 +50,6 @@ body .main .first {
     width: 430px;
     height: 698px;
     background: transparent url('/src/images/m2.png') 0% 0% no-repeat padding-box;
-
 }
 
 .home1st {
@@ -590,7 +589,7 @@ select {
     }
 
     body .main .first {
-        background-image: url(src/images/banner.png);
+        background-image: url('/src/images/banner.png');
         width: 1920px;
         height: 900px;
 
@@ -728,7 +727,7 @@ select {
     }
 
     .second .home2 {
-        background-image: url(/src/images/2nd_banner.png);
+        background-image: url('/src/images/2nd_banner.png');
         width: 1920px;
         height: 789px;
     }
@@ -1264,14 +1263,14 @@ select {
     }
 
     body .main .first {
-        background-image: url(/src/images/banner.png);
+        background-image: url('/src/images/banner.png');
         width: 1920px;
         height: 900px;
         background-size: cover;
     }
 
     .second .home2 {
-        background-image: url(/src/images/2nd_banner.png);
+        background-image: url('/src/images/2nd_banner.png');
         width: 1920px;
         height: 789px;
     }
