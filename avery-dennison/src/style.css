@@ -924,7 +924,6 @@ select {
 
 /* --------- 💻🖥️ Small tablets up to large monitors(521px → 2550px) --------- */
 @media (min-width:521px) and (max-width:2550px) {
-
     .fourth {
         display: block;
     }
@@ -1155,40 +1154,6 @@ select {
         font-size: 17px;
         line-height: 40px;
     }
-}
-
-/* --------- 💻🖥️ Large monitors(520px → 2550px) --------- */
-@media (min-width:520px) and (max-width:2550px) {
-    body {
-        background-color: var(--back-color);
-    }
-
-    body .main .first {
-        background-image: url(/src/images/banner.png);
-        width: 1920px;
-        height: 900px;
-        background-size: cover;
-    }
-
-    .second .home2 {
-        background-image: url(/src/images/2nd_banner.png);
-        width: 1920px;
-        height: 789px;
-    }
-
-    .content_two {
-        width: 35rem;
-        font-size: 25px;
-        line-height: 1.5rem;
-    }
-
-    .content_three {
-        padding-top: 4rem;
-    }
-}
-
-/* --------- 💻🖥️ Large monitors(521px → 2550px) --------- */
-@media (min-width:521px) and (max-width:2550px) {
     .inq_btn {
         font-size: 25px;
     }
@@ -1289,6 +1254,36 @@ select {
         width: 35rem;
         font-size: 36px;
         line-height: 48px;
+    }
+}
+
+/* --------- 💻🖥️ Large monitors(520px → 2550px) --------- */
+@media (min-width:520px) and (max-width:2550px) {
+    body {
+        background-color: var(--back-color);
+    }
+
+    body .main .first {
+        background-image: url(/src/images/banner.png);
+        width: 1920px;
+        height: 900px;
+        background-size: cover;
+    }
+
+    .second .home2 {
+        background-image: url(/src/images/2nd_banner.png);
+        width: 1920px;
+        height: 789px;
+    }
+
+    .content_two {
+        width: 35rem;
+        font-size: 25px;
+        line-height: 1.5rem;
+    }
+
+    .content_three {
+        padding-top: 4rem;
     }
 }
 
